@@ -1,0 +1,8 @@
+#container2 {
+	width: expression(document.body.clientWidth < 740? "775px" : document.body.clientWidth > 1100? "1100px" : "auto");
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -22px;
+}

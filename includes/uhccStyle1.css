@@ -1,0 +1,852 @@
+/* container for home page */
+#container {
+    min-width: 775px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* container for secondary pages ...financial aid, parents ..etc */
+#container2 {
+    min-width: 775px;
+    min-height: 600px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -22px;
+}
+
+#rightNav {
+    padding-top: 55px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+#rightNav p {
+    margin: 0 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+#rightNav div {
+    margin: 0 0 0 0;
+    padding: 6px 0 0 0;
+}
+
+/* home page lower images */
+#hpic1 {
+    background: #E2E2D2 url(../images/myWorld.jpg) no-repeat center center;
+}
+#hpic2 {
+    background: #E2E2D2 url(../images/payingForCollege.jpg) no-repeat center center;
+}
+#hpic3 {
+    background: #E2E2D2 url(../images/parentsConcerned.jpg) no-repeat center center;
+}
+
+/*------------------------------------------------------ Generic styles ------*/
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+th {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+form {
+    padding: 5px;
+}
+
+li {
+    margin: 5px 0 5px 0;
+    border: 0 0 0 0;
+}
+
+.checkList {
+    list-style: none;
+    list-style-image: url(../images/check.jpg);
+    list-style-position: outside;
+    margin: 10px 8px 10px 45px;
+    padding: 0 0 0 0;
+}
+/*------------------------------------------------------ HOME: lower image menu ------*/
+.section_pic {
+    margin-right: .5em;
+    width: 45%;
+    height: 70px;
+    /* border: 4px solid #EBEBE5; */
+    float: left;
+}
+.section_pic2 {
+    margin-bottom: 2.25px;
+    width: 100%;
+    height: 70px;
+    /* border: 4px solid #EBEBE5; */
+    float: left;
+}
+.section_pic3 {
+    margin-bottom: 2.25px;
+    width: 100%;
+    height: 70px;
+    /* border: 4px solid #EBEBE5; */
+    float: left;
+}
+
+/*------------------------------ Secondary pages TITLES, RIGHT MENU layout ------*/
+.rightColumn {
+    background-attachment: scroll;
+    background-image: url(../titles/aaaRightColumn.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.mastheadUnderline {
+    background-attachment: scroll;
+    background-image: url(../images/masthead_underline.jpg);
+    background-repeat: repeat-x;
+}
+
+#subpageMasthead {
+    margin: 0;
+    padding: 0;
+}
+
+#subpageMasthead h2{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: normal;
+    color: #FD7E01;
+    left: 38px;
+    top: 34px;
+    position: relative;
+}
+
+
+/*-------------------------------------------------------------- TOP navigation ------*/
+
+#topNav {
+    margin: 0 0 0 0;
+    padding: 0;
+    /* width:750px; */
+    height: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 90%; */
+}
+
+#topNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#topNav li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: auto;
+}
+
+#topNav a {
+    /* color: #D7D493; */
+    color: #FD7E01;
+    display: inline;
+    width: auto;
+    text-decoration: none;
+    /* background: #000; */
+    margin: 0;
+    padding: 0px 4px;
+    /* border-right: 1px solid #FFF; */
+}
+
+#topNav a:hover, #topNav a:active { text-decoration: underline; color: #FD7E01; }
+
+#topNav a.active:link, #topNav a.active:visited {
+    position: relative;
+    z-index: 102;
+    background: #BBB;
+    color: #FD7E01;
+    font-weight: bold;
+}
+
+/* Highlighting the current page */
+
+body.athome #topNav a#home, 
+body.ataboutus #topNav a#aboutus,
+body.atsitemap #topNav a#sitemap,
+body.atFAQs #topNav a#FAQs,
+body.atcontactus #topNav a#contactus { 
+    color: #fff;
+    text-decoration: none;
+}
+
+body.athome #topNav a:hover#home, 
+body.ataboutus #topNav a:hover#aboutus,
+body.atsitemap #topNav a:hover#sitemap, 
+body.atFAQs #topNav a:hover#FAQs,  
+body.atcontactus #topNav a:hover#contactus { 
+    color: #000;
+}
+
+
+/*----------------------------------------------------- MAIN navigation HOME------*/
+
+#mainNav {
+    margin: 0 0 0 0;
+    padding: 0;
+    /* width: 750px; */
+    /* height: 20px; */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 90%; */
+}
+
+#mainNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#mainNav li {
+    display: block;
+    margin: 0;
+    padding: 0px 5px 10px 10px;
+    /* float: left; */
+    width: auto;
+}
+
+#mainNav a {
+    /* color: #D7D493; */
+    color: #fff;
+    /* display: inline; */
+    width: auto;
+    text-decoration: none;
+    /* background: #000; */
+    margin: 0;
+    padding: 0;
+    /* border-right: 1px solid #FFF; */
+}
+
+#mainNav a:hover, #mainNav a:active { text-decoration: underline; color: #0099FF; }
+
+#mainNav a.active:link, #mainNav a.active:visited {
+    /* position: relative; */
+    /* z-index: 102; */
+    background: #BBB;
+    color: #D7D493;
+    font-weight: bold;
+}
+
+/* Highlighting the current page */
+
+body.getStarted #mainNav a#getStarted, 
+body.programs #mainNav a#programs,
+body.paying #mainNav a#paying,
+body.start4Year #mainNav a#start4Year { 
+    color: #fff;
+    text-decoration: none;
+}
+
+body.getStarted #mainNav a:hover#getStarted, 
+body.programs #mainNav a:hover#programs,
+body.paying #mainNav a:hover#paying,
+body.start4Year #mainNav a:hover#start4Year { 
+    color: #fff;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------- MAIN navigation Horizontal (all other pages) ------*/
+
+#mainNavHorizontal {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 600px;
+    /* height: 20px; */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;	/* font-size: 90%; */
+}
+
+#mainNavHorizontal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#mainNavHorizontal li {
+    display: block;
+    margin: 0;
+    padding: 0px 8px 3px 8px;
+    float: left;
+    width: auto;
+    border-right: 1px solid #83B114;
+}
+
+#mainNavHorizontal a {
+    color: #000;
+    display: inline;
+    width: auto;
+    text-decoration: none;
+    /* background: #000; */
+    margin: 0;
+    padding: 0;
+}
+
+#mainNavHorizontal a:hover, #mainNavHorizontal a:active { text-decoration: underline; color: #0099FF; }
+
+#mainNavHorizontal a.active:link, #mainNavHorizontal a.active:visited {
+    position: relative;
+    /* z-index: 102; */
+    background: #BBB;
+    color: #83B114;
+    font-weight: bold;
+}
+
+/* Highlighting the current page */
+
+body.getStarted #mainNavHorizontal a#getStarted, 
+body.programs #mainNavHorizontal a#programs,
+body.paying #mainNavHorizontal a#paying,
+body.start4Year #mainNavHorizontal a#start4Year { 
+    color: #83B114;
+    text-decoration: none;
+}
+
+body.getStarted #mainNavHorizontal a:hover#getStarted, 
+body.programs #mainNavHorizontal a:hover#programs,
+body.paying #mainNavHorizontal a:hover#paying,
+body.start4Year #mainNavHorizontal a:hover#start4Year { 
+    color: #83B114;
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------------- HOME lower links ------*/
+
+.subMenu:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+}
+.subMenu:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+}
+.subMenu:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0099FF;
+    text-decoration: underline;
+}
+
+#mainNav {
+    margin: 0 0 0 0;
+    padding: 0;
+    /* width: 750px; */
+    /* height: 20px; */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 90%; */
+}
+
+/*----------------------------------------------------- Sub Page right nav (inner page template) ------*/
+#subPageNav {
+    margin: 0 0 0 0;
+    padding: 0;
+    /* width: 750px; */
+    /* height: 20px; */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 90%; */
+}
+
+#subPageNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#subPageNav li {
+    display: block;
+    margin: 0;
+    padding: 0px 5px 10px 10px;
+    /* float: left; */
+    width: auto;
+}
+
+#subPageNav a {
+    /* color: #D7D493; */
+    color: #000;
+    /* display: inline; */
+    width: auto;
+    text-decoration: none;
+    /* background: #000; */
+    margin: 0;
+    padding: 0;
+    /* border-right: 1px solid #FFF; */
+}
+
+#subPageNav a:hover { text-decoration: underline; color: #0099FF; }
+
+#subPageNav a.active:link, #subPageNav a.active:visited {
+    color: #000;
+    font-weight: normal;
+}
+#subPageNav .subLinkSelected {
+    color: #0099FF;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#subPageNav ul li{
+    font-size: 11px;
+    margin: 0 0 0 0;
+    padding: 7px 8px 3px 25px;
+}
+
+/*----------------------------------------------------- HOME sponsor links ------*/
+.sponsors_tilte {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    /* color: #83B114; */
+    color: #53462B;
+    text-decoration: underline;
+}
+
+.sponsorLink:link  {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #53462B;
+    text-decoration: none;
+}
+.sponsorLink:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #53462B;
+    text-decoration: none;
+}
+.sponsorLink:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #53462B;
+    text-decoration: underline;
+}
+
+
+
+
+
+.bodystyle {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.small {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+.topNav {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+
+.expanded {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+.justified {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+
+.imgNoRepeat_box {
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url(../images/box_bottomLeft.gif);
+}
+.imgNoRepeat_box_right {
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url(../images/box_bottomRight.gif);
+}
+
+.imgNoRepeat_banner_C {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(../images/banner_topRight_C.jpg);
+}
+.imgNoRepeat_beach {
+    background-attachment: scroll;
+    background-image: url(../images/beach.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+.mainLinks {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.tbl_sideBorders {
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #B4B4B4;
+    border-left-color: #B4B4B4;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #B4B4B4;
+}
+.tbl_sideBorder_only {
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #B4B4B4;
+    border-left-color: #B4B4B4;
+}
+.tbl_leftBorder {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #B4B4B4;
+}
+
+.home_lowerLinks_tile {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #83B114;
+    text-decoration: underline;
+}
+.home_lowerLinks_text {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: normal;
+}
+
+.tblIndent { text-indent: 15px; }
+
+.paragraphUnderline {
+    margin: 0px 0 4px 0;
+    padding: 1px 0 2px 0;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #999999;
+}
+.greenBanner_tile {
+    background-image: url(../images/banner_green_tile.jpg);
+    background-repeat: repeat-x;
+}
+.leftMenu_beach {
+    background-attachment: scroll;
+    background-image: url(../images/leftMenu_beach.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+/****************************************************** BREADCRUMB TEXT and LINKS ************/
+.breadcrumbTEXT {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0099FF;
+    text-decoration: none;
+}
+.breadcrumb:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0099FF;
+    text-decoration: underline;
+}
+.breadcrumb:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+/****************************************************** STYLES FOR CONTENT ************/
+/*  padding:  top, right, bottom, left */
+.tableLine_top {
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: #999999;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tableLine_bottom {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #999999;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tableLine_left {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-left-width: 1px;
+    border-left-style: dotted;
+    border-left-color: #999999;
+}
+
+.linkInContent:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0099FF;
+    text-decoration: underline;
+}
+.linkInContent:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color:#993366;
+    text-decoration: underline;
+}
+.linkInContent:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.topOfPage:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #0099FF;
+    text-decoration: none;
+}
+.topOfPage:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #0099FF;
+    text-decoration: none;
+}
+.topOfPage:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #0099FF;
+    text-decoration: none;
+}
+
+.external {
+    background: url(../images/externalLink.gif) no-repeat right top;
+    padding-right: 10px;
+}
+
+.pageContent {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    padding: 17px 25px 0px 25px;
+}
+
+.pageContent_noTopPadding {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 25px 0px 25px;
+}
+
+.pageContent_top {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    padding: 17px 25px 0px 25px;
+}
+.pageContent_leftColumn {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 12px 0px 25px;
+}
+.pageContent_rightColumn {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 25px 0px 12px;
+}.contentTitle {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    color: #EC7600;
+    text-decoration: none;
+}
+
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #333333;
+    padding-top: 16px;
+    padding-left: 10px;
+    clear: both;
+}
+.BG_leaf {
+    background-attachment: scroll;
+    background-image: url(../images/BGleaf.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.BG_hibiscus {
+    background-attachment: scroll;
+    background-image: url(../images/BGhibiscus.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.nurse-table {
+    background-image:url("../images/topMenu_tile.jpg");
+}
+.nurse-table td {
+    text-align:center;
+}
+.nurse-table a:visited {
+    color:blue;
+}
+.nurse-table a:hover {
+    color:#0099CC;
+}
+p.MsoHeader {
+margin:0pt;
+margin-bottom:.0001pt;
+tab-stops:center 216.0pt right 432.0pt;
+font-size:12.0pt;
+font-family:"Times New Roman";
+}
+/*
+The two immediately after this comment are used on the _positions.php page of faculty section
+*/
+p.MsoNormal {
+margin-top:0pt;
+margin-right:0pt;
+margin-bottom:10.0pt;
+margin-left:0pt;
+line-height:115%;
+font-size:11.0pt;
+font-family:Calibri;
+}
+p.govmessages1 {
+margin-right:0pt;
+margin-left:0pt;
+line-height:140%;
+font-size:11.0pt;
+font-family:"Times New Roman";
+}

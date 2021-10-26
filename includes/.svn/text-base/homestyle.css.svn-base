@@ -1,0 +1,364 @@
+/* container for home page */
+#container {
+    min-width: 997px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #5C90BD;
+    border-right: 1px solid #5C90BD;
+    height:100%;
+    background: url('../images/new_banner_v8.jpg') top left no-repeat #FFFFFF;
+}
+.sideBorders {
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #CCCCCC;
+    border-left-color: #CCCCCC;
+}
+
+/*------------------------------------------------------ Generic styles ------*/
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+th {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+#cse-search-box input{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: normal;
+    border: 1px solid #8CC63E;
+}
+
+li {
+    margin: 5px 0 5px 0;
+    border: 0 0 0 0;
+}
+
+/*-------------------------------------------------------------- TOP navigation ------*/
+
+#topNav {
+    margin: 0 0 0 0;
+    padding: 0;
+    /* width: 750px; */
+    height: 20px;
+    font-family: Helvetica;
+    font-size: .8em;
+    font-style: normal;
+    font-weight: bold;
+    color: grey;
+    /* font-size: 90%; */
+}
+
+#topNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#topNav li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: auto;
+}
+
+#topNav a {
+    /* color: #D7D493; */
+    font-size: 13px;
+    color: #0280BF;
+    display: inline;
+    width: auto;
+    text-decoration: none;
+    margin: 0;
+    padding: 0px 4px;
+    /* border-right: 1px solid #FFF; */
+}
+
+#topNav a:hover, #topNav a:active { text-decoration: underline; color: #FFF; }
+
+#topNav a.active:link, #topNav a.active:visited {
+    position: relative;
+    z-index: 102;
+    background: #BBB;
+    color: #D7D493;
+    font-weight: bold;
+}
+.small-seal{
+                position:absolute;
+                float:left;
+                width:76px;
+                height:63px;
+                cursor: pointer;
+                margin-left:10px;
+                margin-top:10px;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -o-user-select: none;
+                user-select: none;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -webkit-user-drag: none;
+                user-drag:none;
+            }
+/*----------------------------------------------------- MAIN navigation HOME------*/
+
+#mainNav {
+    margin: 0 0 0 0;
+    padding: 0;
+    /* width: 750px; */
+    /* height: 20px; */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 90%; */
+}
+
+#mainNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#mainNav li {
+    display: block;
+    margin: 0;
+    padding: 0px 5px 10px 10px;
+    /* float: left; */
+    width: auto;
+}
+
+#mainNav a {
+    /* color: #D7D493; */
+    color: #fff;
+    /* display: inline; */
+    width: auto;
+    text-decoration: none;
+    /* background: #000; */
+    margin: 0;
+    padding: 0;
+    /* border-right: 1px solid #FFF; */
+}
+
+#mainNav a:hover, #mainNav a:active { text-decoration: underline; color: rgb(175,227,41) } /*#0099FF; => old*/
+
+#mainNav a.active:link, #mainNav a.active:visited {
+    /* position: relative; */
+    /* z-index: 102; */
+    background: #BBB;
+    color: #D7D493;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------ Lower Text Boxes Styles ------*/
+#textBox{
+    margin: 0;
+    padding: 0;
+}
+#textBox img{
+    margin: 0;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+#textBox h4{
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: .2em;
+    padding-left: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+#textBox p{
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: .2em;
+    padding-left: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+#textBox a {
+    font-size: .9em;
+    color: #FD7E01;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+#textBox a:hover, #textBox a:active { text-decoration: underline; color: #0000FF; }
+#textBox a.active:link, #textBox a.active:visited {
+    color: #D7D493;
+    font-weight: bold;
+}
+.textBox_left {
+    background-image: url(../images/imgsHome/InnerBox_left.gif);
+    background-repeat: repeat-y;
+    background-position: top;
+}
+.textBox_top {
+    background-image: url(../images/imgsHome/InnerBox_top.gif);
+    background-repeat: repeat-x;
+    background-position: right;
+}
+
+
+/*------------------------------------------------------ Lower Text Boxes Styles ------*/
+#rightMenu{
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+#rightMenu h4{
+    margin: 0;
+    padding: 0 0 0 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: bold;
+    color: #184254;
+}
+#rightMenu p{
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+#rightMenu a {
+    font-size: .9em;
+    color: #0099FF;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+#rightMenu a:hover, #rightMenu a:active { text-decoration: underline; color: #0000FF; }
+#rightMenu a.active:link, #rightMenu a.active:visited {
+    color: #0099FF;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------ Related links ------*/
+#relatedLinks{
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+#relatedLinks h4{
+    margin: 0;
+    padding: 0 0 0 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: bold;
+    color: #205871;
+}
+#relatedLinks p{
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+#relatedLinks a {
+    font-size: 1.0em;
+    color: #205871;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+#relatedLinks a:hover, relatedLinks a:active { text-decoration: underline; color: #0000FF; }
+#relatedLinks a.active:link, relatedLinks a.active:visited {
+    color: #205871;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------------*/
+.footer {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    color: #333333;
+    padding-top: 16px;
+    padding-left: 10px;
+    clear: both;
+}
+
+
+
+/*----------------------------------------------------- HOME lower links ------*/
+
+.lowerLinks:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+}
+.lowerLinks:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+}
+.lowerLinks:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #0099FF;
+    text-decoration: underline;
+}
+
+.home_lowerLinks_title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #FD7E01;
+    text-decoration: underline;
+}
